@@ -80,10 +80,10 @@ analytics:
 author:
   name             : "Ahmed Salem"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "PhD student at CISPA"
+  location         : "Saarbrücken, Germany"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=Z_l5f-4AAAAJ"
   email            :
   uri              :
   bitbucket        :
