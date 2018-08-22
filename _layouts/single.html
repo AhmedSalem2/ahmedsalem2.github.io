@@ -43,7 +43,7 @@ layout: default
         {% endif %}
         
         {% if page.paperurl %}
-          Manuscript: <div><a href="{{ page.paperurl }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "pdf" }}</a></div>
+          Manuscript: <div><a href="{{ page.paperurl }}" class="btn">{{"pdf" }}</a></div>
         {% endif %}
      
         {% if page.citation and page.paperurl %}
