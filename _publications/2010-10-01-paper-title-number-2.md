@@ -9,5 +9,4 @@ paperurl: 'https://arxiv.org/abs/1806.01246'
 citation: ''
 ---
 
-[Download paper here](https://arxiv.org/pdf/1806.01246.pdf)
 
