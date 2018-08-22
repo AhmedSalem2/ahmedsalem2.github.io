@@ -59,7 +59,7 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+      Manuscript: <div><a href="{{ page.paperurl }}" class="btn">{{"pdf" }}</a></div>
     {% endif %}
 
   </article>
