@@ -10,8 +10,8 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+<h1>2019</h1>
 
 {% for post in site.publications reversed %}
-<h1>2019</h1>
   {% include archive-single.html %}
 {% endfor %}
