@@ -3,7 +3,7 @@ title: "ML-Leaks: Model and Data Independent Membership Inference Attacks and De
 collection: publications
 permalink: 
 excerpt: ''
-date: 2019-11-01
+date: 2018-11-01
 venue: 
 paperurl: 'https://arxiv.org/pdf/1806.01246.pdf'
 citation: 
