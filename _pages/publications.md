@@ -30,6 +30,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-{% for post in site._2018 reversed %}
+{% for post in site.2018 reversed %}
   {% include archive-single.html %}
 {% endfor %}
