@@ -18,9 +18,9 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 {% for post in site.publications reversed %}
-  {{post.date}}
+  {{post.date | where: "year", "2019"}}
 
-  {% include archive-single.html | where: "year", "2019" %}
+  {% include archive-single.html  %}
 {% endfor %}
 {% for post in site.publications reversed %}
   {{post.date}}
