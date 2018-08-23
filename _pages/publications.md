@@ -22,13 +22,7 @@ author_profile: true
 {% endfor %}
 <h1>2018</h1>
 
-{% for item in site.publications.2018 reversed %}
-  {{ item.title }}
-{% endfor %}
 
-{% for post in site.publications/_2018 reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 {% for post in site.2018 reversed %}
   {% include archive-single.html %}
