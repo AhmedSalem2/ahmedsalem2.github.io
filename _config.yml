@@ -177,7 +177,7 @@ collections:
     permalink: /:collection/:path/
   2018:
     output: true
-    permalink: /publications/:collection/:path/
+    permalink: /:collection/publications/:path/
   portfolio:
     output: false
     permalink: /:collection/:path/
