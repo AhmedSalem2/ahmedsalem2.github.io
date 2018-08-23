@@ -22,8 +22,8 @@ author_profile: true
 {% endfor %}
 <h1>2018</h1>
 
-{% for post in site.publications/2018 reversed %}
-  {% include archive-single.html %}
+{% for item in site.publications reversed %}
+  {{ item.title }}
 {% endfor %}
 
 {% for post in site.publications/_2018 reversed %}
