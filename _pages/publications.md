@@ -10,9 +10,7 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-<h1>20197</h1>
-{{ base_path }}
-{{ site.publications }}
+<h1>2019</h1>
 
 {% for post1 in site.publications reversed %}
 {{post1}}
@@ -25,6 +23,9 @@ author_profile: true
 
 
 {% for post in site.publications.2019 reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 <h1>2018</h1>
