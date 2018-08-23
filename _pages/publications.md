@@ -14,8 +14,10 @@ author_profile: true
 {{ base_path }}
 
 {% for post1 in site.publications reversed %}
-{% for post in post1 reversed %}
+{{post1}}
 
+{% for post in post1 reversed %}
+{{post}}
   {% include archive-single.html %}
 {% endfor %}
 {% endfor %}
