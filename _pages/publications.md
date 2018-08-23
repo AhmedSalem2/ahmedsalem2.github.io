@@ -22,6 +22,14 @@ author_profile: true
 {% endfor %}
 <h1>2018</h1>
 
-{% for post in site.2018 reversed %}
+{% for post in site.publications/2018 reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in site.publications/_2018 reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% for post in site._2018 reversed %}
   {% include archive-single.html %}
 {% endfor %}
