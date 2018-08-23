@@ -175,10 +175,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-    collections_dir: publications
-  2018:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: false
     permalink: /:collection/:path/
