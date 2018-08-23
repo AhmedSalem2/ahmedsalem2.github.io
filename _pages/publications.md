@@ -15,3 +15,8 @@ author_profile: true
 {% for post in site.publications.2019 reversed %}
   {% include archive-single.html %}
 {% endfor %}
+<h1>2018</h1>
+
+{% for post in site.publications.2018 reversed %}
+  {% include archive-single.html %}
+{% endfor %}
