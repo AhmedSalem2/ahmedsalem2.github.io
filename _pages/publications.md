@@ -18,6 +18,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 {% for post in site.publications reversed %}
+  {{post.date}}
+
   {% include archive-single.html %}
 {% endfor %}
 <h1>2018</h1>
