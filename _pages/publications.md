@@ -14,16 +14,8 @@ author_profile: true
 
 
 
-{% for post in site.publications.2019 reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 {% for post in site.publications reversed %}
-  {{post.date | where: "year", "2019"}}
-
-  {% include archive-single.html  %}
-{% endfor %}
-{% for post in site.publications reversed %}
-  {{post.date}}
+  {{post.date %Y}}
 
   {% include archive-single.html  %}
 {% endfor %}
@@ -31,6 +23,3 @@ author_profile: true
 
 
 
-{% for post in site.2018 reversed %}
-  {% include archive-single.html %}
-{% endfor %}
