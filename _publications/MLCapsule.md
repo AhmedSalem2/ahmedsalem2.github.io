@@ -3,7 +3,7 @@ title: "MLCapsule: Guarded Offline Deployment of Machine Learning as a Service"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: ''
-date: 2019-12-01
+date: 2018-12-01
 venue: 
 paperurl: 'https://arxiv.org/pdf/1808.00590.pdf'
 citation: 
