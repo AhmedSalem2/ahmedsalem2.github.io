@@ -175,6 +175,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+    collections_dir: publications
   2018:
     output: true
     permalink: /publications/name:
