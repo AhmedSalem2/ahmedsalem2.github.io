@@ -12,6 +12,7 @@ author_profile: true
 {% include base_path %}
 <h1>2019</h1>
 {{ base_path }}
+{{ site.publications }}
 
 {% for post1 in site.publications reversed %}
 {{post1}}
