@@ -19,7 +19,6 @@ author_profile: true
 
   {% include archive-single.html  %}
 {% endfor %}
-<h1>2018</h1>
 
 
 
