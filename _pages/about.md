@@ -16,7 +16,7 @@ My research interests are mainly: Machine learning privacy, biomedical data's pr
 
 <ul>
   
-  <li>Our paper on Privacy-preserving Similar Patient Queries for Combined Biomedical Data got accepted in PoPETs 2019</li>
+  <li>Our paper titled "Privacy-preserving Similar Patient Queries for Combined Biomedical Data" got accepted in PoPETs 2019</li>
   <li>Our paper titled "MLCapsule: Guarded Offline Deployment of Machine Learning as a Service" is now online</li>
   <li>Our new technical report on membership inference against machine learning models is now online, a previous version of it was presented in PiMLAI 2018</li>
 </ul>
