@@ -15,8 +15,9 @@ author_profile: true
 
 
 {% for post in site.publications reversed %}
-  {{ post.date | date: "%b %d, %Y" }}
-
+  {{ assign dateTemp = post.date | date: %Y" }}
+  {{dateTemp}}
+  {{dateTemp}}
 
   {% include archive-single.html  %}
 {% endfor %}
