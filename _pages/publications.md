@@ -15,7 +15,7 @@ author_profile: true
 
 
 {% for post in site.publications reversed %}
-  {{post.date.year}}
+  {{post.date < 2019}}
 
   {% include archive-single.html  %}
 {% endfor %}
