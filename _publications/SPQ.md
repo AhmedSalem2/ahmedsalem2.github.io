@@ -4,6 +4,7 @@ collection: publications
 permalink: 
 excerpt: ''
 date: 2019-10-01
+year: 2019
 venue: 'PoPETs (to appear)'
 paperurl: https://petsymposium.org/2019/files/papers/issue1/popets-2019-0004.pdf
 citation: 
