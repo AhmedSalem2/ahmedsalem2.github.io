@@ -17,8 +17,10 @@ author_profile: true
 {% for post in site.publications reversed %}
   
   {{ assign dateTemp = post.date | date: %Y" }}
-  {{dateTemp}}
+  {dateTemp}
+  @dateTemp
   {{@dateTemp}}
+  {@dateTemp}
   {% if dateTemp == 2018 %}
   {% include archive-single.html  %}
   
