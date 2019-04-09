@@ -13,7 +13,7 @@ author_profile: true
 <h1>2018</h1>
 
 
-testing?
+
 {% for post in site.publications reversed %}
   {{ assign dateTemp = post.date | date: %Y" }}
   {{dateTemp}}
