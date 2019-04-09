@@ -5,7 +5,7 @@ permalink:
 excerpt: ''
 date: 2019-10-01
 year: 2019
-venue: 'PoPETs (to appear)'
+venue: '19th Privacy Enhancing Technologies Symposium (PETS 2019)'
 paperurl: https://petsymposium.org/2019/files/papers/issue1/popets-2019-0004.pdf
 citation: 
 ---
