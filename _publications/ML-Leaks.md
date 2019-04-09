@@ -3,8 +3,8 @@ title: "ML-Leaks: Model and Data Independent Membership Inference Attacks and De
 collection: publications
 permalink: 
 excerpt: ''
-date: 2018-11-01
-venue: 
+date: 2019-01-01
+venue: the 26th Annual Network and Distributed System Security Symposium (NDSS 2019)
 paperurl: 'https://arxiv.org/pdf/1806.01246.pdf'
 citation: 
 ---
