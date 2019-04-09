@@ -10,13 +10,25 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+<h1>2019</h1>
+
+
+
+{% for post in site.publications reversed %}
+  
+  {% if post.year == 2019 %}
+  {% include archive-single.html  %}
+  
+  {% endif %}
+{% endfor %}
+
 <h1>2018</h1>
 
 
 
 {% for post in site.publications reversed %}
   
-  {% if post.year > 2018 %}
+  {% if post.year == 2018 %}
   {% include archive-single.html  %}
   
   {% endif %}
