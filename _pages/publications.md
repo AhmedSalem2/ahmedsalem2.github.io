@@ -18,9 +18,10 @@ author_profile: true
   
   {{ assign dateTemp = post.date | date: %Y" }}
   {{dateTemp}}
-  {{dateTemp}}
+  {{@dateTemp}}
   {% if dateTemp == 2018 %}
   {% include archive-single.html  %}
+  
   {% endif %}
 {% endfor %}
 
