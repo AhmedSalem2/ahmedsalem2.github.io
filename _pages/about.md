@@ -14,6 +14,7 @@ My research interests are mainly: Machine learning privacy, biomedical data's pr
 
 <h1>What’s New</h1>
 <ul>
+  <li>Our technical report titled "Dynamic Backdoor Attacks Against Machine Learning Models" is now online</li>
     <li>Our paper "Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning" got accepted in USENIX 2020!</li>
 
    <li>Our paper "MemGuard: Defending against Black-Box Membership Inference Attacks via Adversarial Examples" got accepted in CCS 2019!</li>
