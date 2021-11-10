@@ -14,8 +14,13 @@ My research interests are mainly: Machine learning privacy, biomedical data's pr
 
 <h1>What’s New</h1>
 <ul>
+  <li>Our paper "Get a Model! Model Hijacking Attack Against Machine Learning Models" got accepted in NDSS 2022</li>
+  <li>Our paper "ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+" got accepted in USENIX Security 2022</li>
+  <li>Our paper "BadNL: Backdoor Attacks against NLP Models with Semantic-preserving Improvements" got accepted in ACSAC 2021</li>
+  <li>I will spend 3 months as a research intern at Microsoft Research (MSR) Cambridge!</li>
   <li>Our technical report titled "Dynamic Backdoor Attacks Against Machine Learning Models" is now online</li>
-    <li>Our paper "Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning" got accepted in USENIX 2020!</li>
+    <li>Our paper "Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning" got accepted in USENIX Security 2020!</li>
 
    <li>Our paper "MemGuard: Defending against Black-Box Membership Inference Attacks via Adversarial Examples" got accepted in CCS 2019!</li>
   <li>Our technical report titled "Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning" is now online</li>
