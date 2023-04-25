@@ -14,6 +14,12 @@ My research interests are mainly: Machine learning privacy, biomedical data's pr
 
 <h1>What’s New</h1>
 <ul>
+  <li>Our paper "Bayesian Estimation of Differential Privacy" got accepted in ICML 2023</li>
+  <li>Our paper "Analyzing Leakage of Personally Identifiable Information in Language Models" got accepted in Oakland 2023</li>
+  <li>Our paper "SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning" got accepted in Oakland 2023</li>
+  <li>Our paper "Two-in-One: A Model Hijacking Attack Against Text Generation Models" got accepted in USENIX Security 2023</li>
+  <li>Our paper "UnGANable: Defending Against GAN-based Face Manipulation" got accepted in USENIX Security 2023</li>
+
   <li>I started a PostDoc at Microsoft Research!</li>
   <li>Our paper "Get a Model! Model Hijacking Attack Against Machine Learning Models" got accepted in NDSS 2022</li>
   <li>Our paper "ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
