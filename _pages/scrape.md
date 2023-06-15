@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Don't scrape this page!"
+title: "Scrape this page!"
 permalink: /scrape/
 author_profile: false
 redirect_from:
