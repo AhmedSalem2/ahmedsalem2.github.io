@@ -181,6 +181,9 @@ collections:
   dontscrape:
     output: false
     permalink: /:collection/:path/
+  scrape:
+    output: false
+    permalink: /:collection/:path/
 #  talks:
 #    output: false
 #    permalink: /:collection/:path/
@@ -228,6 +231,15 @@ defaults:
   - scope:
       path: ""
       type: dontscrape
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
+  # _dontscrape
+  - scope:
+      path: ""
+      type: scrape
     values:
       layout: single
       author_profile: false
