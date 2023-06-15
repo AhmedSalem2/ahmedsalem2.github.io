@@ -221,6 +221,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _dontscrape
+  - scope:
+      path: ""
+      type: dontscrape
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
