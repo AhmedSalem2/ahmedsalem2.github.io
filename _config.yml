@@ -178,6 +178,9 @@ collections:
   portfolio:
     output: false
     permalink: /:collection/:path/
+  dontscrape:
+    output: false
+    permalink: /:collection/:path/
 #  talks:
 #    output: false
 #    permalink: /:collection/:path/
