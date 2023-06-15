@@ -9,3 +9,6 @@ redirect_from:
 
 
 # Testing this?
+
+<span style="color:white">some white textttt</span>.
+
