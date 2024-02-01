@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Ahmed Salem, I am a Postdoc researcher at Microsoft Security Response Center (MSRC). Previous i was a PhD candidate working in the group of [Michael Backes](https://cispa.de/en/about/director-page) at CISPA, Saarland University.
+Hello, I am Ahmed Salem, I am a researcher at Microsoft Security Response Center (MSRC). Previous i was a PhD candidate working in the group of [Michael Backes](https://cispa.de/en/about/director-page) at CISPA, Saarland University.
 
 My research interests are mainly: Machine learning privacy, biomedical data's privacy and applied cryptography. 
 
