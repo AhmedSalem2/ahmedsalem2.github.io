@@ -2,13 +2,91 @@
 layout: single
 title: "Query Parameter Demo"
 permalink: /visit/
+author_profile: false
 ---
 
 <h1>Value of <code>q</code>:</h1>
 <p id="output"></p>
 
+<h2>All <code>q</code> values received:</h2>
+<ul id="history"></ul>
+<button id="clear" type="button">Clear</button>
+
 <script>
+  const STORAGE_KEY = "qHistory";
+  const MAX_ENTRIES = 500; // cap history so localStorage can't overflow its quota
+
+  function loadHistory() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed.map(String) : [];
+    } catch (e) {
+      // localStorage unavailable/blocked or corrupt JSON -> start fresh
+      return [];
+    }
+  }
+
+  function saveHistory(list) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    } catch (e) {
+      // storage blocked or quota exceeded -> keep working from in-memory list
+    }
+  }
+
+  function clearHistory() {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (e) {
+      // ignore: nothing else to do if storage is unavailable
+    }
+  }
+
+  function renderHistory(list) {
+    const ul = document.getElementById("history");
+    if (!ul) return;
+    ul.textContent = ""; // clear existing
+    if (list.length === 0) {
+      const li = document.createElement("li");
+      li.textContent = "(none)";
+      ul.appendChild(li);
+      return;
+    }
+    list.forEach(function (value) {
+      const li = document.createElement("li");
+      // textContent keeps stored values as plain text (safe from HTML/script injection).
+      li.textContent = String(value);
+      ul.appendChild(li);
+    });
+  }
+
   const params = new URLSearchParams(window.location.search);
   const q = params.get("q");
-  document.getElementById("output").textContent = q !== null ? q : "(no q parameter provided)";
+
+  const output = document.getElementById("output");
+  if (output) {
+    output.textContent = q !== null ? q : "(no q parameter provided)";
+  }
+
+  let history = loadHistory();
+
+  if (q !== null) {
+    history.push(q);
+    if (history.length > MAX_ENTRIES) {
+      history = history.slice(history.length - MAX_ENTRIES); // keep most recent
+    }
+    saveHistory(history);
+  }
+
+  renderHistory(history);
+
+  const clearBtn = document.getElementById("clear");
+  if (clearBtn) {
+    clearBtn.addEventListener("click", function () {
+      history = [];
+      clearHistory();
+      renderHistory(history);
+    });
+  }
 </script>
