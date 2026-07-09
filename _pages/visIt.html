@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Query Parameter Demo</title>
+</head>
+<body>
+  <h1>Value of <code>q</code>:</h1>
+  <p id="output"></p>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q");
+    // Use textContent (not innerHTML) so the value is rendered as plain text and cannot inject HTML/script.
+    document.getElementById("output").textContent = q !== null ? q : "(no q parameter provided)";
+  </script>
+</body>
+</html>
